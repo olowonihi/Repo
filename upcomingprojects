@@ -1,6 +1,9 @@
-1. Building your own botnet
-2. Sample Dns Hijacking for OAuth extension grants
-3. Metasploit sms text exploit
-4. click farms:
-	virtual click farms
-	headless virtual click farms
+*Finishing the hangman game 
+*Building your own botnet
+*Sample DNS Hijacking for OAuth extension grants
+*Metasploit sms text exploit
+*Malware Analysis[hands on experimentation and deployment]
+*Threat Hunting [https://chrissanders.org/training/threat-hunting-training/]
+*click farms:
+	Virtual click farms
+	Headless virtual click farms
