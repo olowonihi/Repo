@@ -1,8 +1,0 @@
-To set SSH commit access for a repo:
-git remote -v
-git remote set-url origin git@github.com:username/your-repository.git
-
-ssh Key location:
-~/.keys
-
-..
