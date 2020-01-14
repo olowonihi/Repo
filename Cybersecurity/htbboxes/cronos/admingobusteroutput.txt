@@ -1,0 +1,4 @@
+/index.php (Status: 200)
+/welcome.php (Status: 302)
+/logout.php (Status: 302)
+/session.php (Status: 302)

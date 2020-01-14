@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Sun Aug  4 00:26:00 2019 as: nmap -O -p 1-65535 -sV -sC --open -oN cnmapoutput.txt -oG gcnmapoutput.txt 10.10.10.76
+Host: 10.10.10.76 ()	Status: Up
+Host: 10.10.10.76 ()	Ports: 79/open/tcp//finger//Sun Solaris fingerd/, 111/open/tcp//rpcbind///, 22022/open/tcp//ssh//SunSSH 1.3 (protocol 2.0)/, 43048/open/tcp/////, 59777/open/tcp/////
+# Nmap done at Sun Aug  4 00:28:17 2019 -- 1 IP address (1 host up) scanned in 137.50 seconds

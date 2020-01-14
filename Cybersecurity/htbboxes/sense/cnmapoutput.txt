@@ -1,0 +1,20 @@
+# Nmap 7.70 scan initiated Tue Jul 30 20:35:42 2019 as: nmap -O -p 1-65535 -sV -sC --open -oN cnmapoutput.txt 10.10.10.60
+Nmap scan report for 10.10.10.60
+Host is up (0.12s latency).
+Not shown: 65533 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http       lighttpd 1.4.35
+|_http-server-header: lighttpd/1.4.35
+|_http-title: Did not follow redirect to https://10.10.10.60/
+443/tcp open  ssl/https?
+|_ssl-date: ERROR: Script execution failed (use -d to debug)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): Comau embedded (92%), FreeBSD 8.X (85%), OpenBSD 4.X (85%)
+OS CPE: cpe:/o:freebsd:freebsd:8.1 cpe:/o:openbsd:openbsd:4.0
+Aggressive OS guesses: Comau C4G robot control unit (92%), FreeBSD 8.1 (85%), OpenBSD 4.0 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 30 20:39:51 2019 -- 1 IP address (1 host up) scanned in 248.86 seconds

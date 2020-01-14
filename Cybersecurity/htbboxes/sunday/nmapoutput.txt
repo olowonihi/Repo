@@ -1,0 +1,30 @@
+# Nmap 7.70 scan initiated Sun Aug  4 00:25:40 2019 as: nmap -sV -sC -oN nmapoutput.txt -oG gnmapoutput.txt 10.10.10.76
+Warning: 10.10.10.76 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.10.10.76
+Host is up (0.13s latency).
+Not shown: 981 closed ports
+PORT      STATE    SERVICE         VERSION
+79/tcp    open     finger          Sun Solaris fingerd
+|_finger: ERROR: Script execution failed (use -d to debug)
+81/tcp    filtered hosts2-ns
+111/tcp   open     rpcbind
+161/tcp   filtered snmp
+691/tcp   filtered resvc
+1138/tcp  filtered encrypted_admin
+1461/tcp  filtered ibm_wrless_lan
+3905/tcp  filtered mupdate
+3945/tcp  filtered emcads
+4998/tcp  filtered maybe-veritas
+5087/tcp  filtered biotic
+5678/tcp  filtered rrac
+5810/tcp  filtered unknown
+5925/tcp  filtered unknown
+6003/tcp  filtered X11:3
+10010/tcp filtered rxapi
+14442/tcp filtered unknown
+48080/tcp filtered unknown
+62078/tcp filtered iphone-sync
+Service Info: OS: Solaris; CPE: cpe:/o:sun:sunos
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug  4 00:37:26 2019 -- 1 IP address (1 host up) scanned in 706.16 seconds

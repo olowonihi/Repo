@@ -1,0 +1,58 @@
+# Nmap 7.70 scan initiated Fri Jul 26 07:14:11 2019 as: nmap -O --top-ports 1000 -sV -sC --open -oN tnmapoutput.txt 10.10.10.40
+Nmap scan report for 10.10.10.40
+Host is up (0.12s latency).
+Not shown: 991 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  msrpc        Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=7/26%OT=135%CT=1%CU=33999%PV=Y%DS=2%DC=I%G=Y%TM=5D3AE0
+OS:F1%P=i686-pc-linux-gnu)SEQ(TI=I%TS=7)SEQ(CI=RD%TS=7)SEQ(SP=100%GCD=1%ISR
+OS:=10C%CI=I%II=I%TS=7)OPS(O1=M54DNW8ST11%O2=M54DNW8ST11%O3=M54DNW8NNT11%O4
+OS:=M54DNW8ST11%O5=M54DNW8ST11%O6=M54DST11)WIN(W1=2000%W2=2000%W3=2000%W4=2
+OS:000%W5=2000%W6=2000)ECN(R=N)ECN(R=Y%DF=Y%T=80%W=2000%O=M54DNW8NNS%CC=N%Q
+OS:=)T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=Y%DF=Y%TG=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T2(R=Y%DF=Y%T=80%
+OS:W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%TG=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q
+OS:=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%TG=80%W=0%S=A
+OS:%A=O%F=R%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%D
+OS:F=Y%TG=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)T6(R=Y%DF=Y%TG=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=
+OS:80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=N)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O
+OS:=%RD=0%Q=)U1(R=N)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK
+OS:=G%RUD=G)IE(R=Y%DFI=N%TG=80%CD=Z)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: Host: HARIS-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -22m51s, deviation: 34m36s, median: -2m53s
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: haris-PC
+|   NetBIOS computer name: HARIS-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-07-26T12:13:00+01:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2019-07-26 07:12:58
+|_  start_date: 2019-07-26 07:03:59
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 26 07:16:01 2019 -- 1 IP address (1 host up) scanned in 110.66 seconds

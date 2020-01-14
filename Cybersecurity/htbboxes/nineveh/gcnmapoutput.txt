@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Fri Aug  9 08:41:03 2019 as: nmap -O -p 1-65535 -sV -sC --open -oN cnmapoutput.txt -oG gcnmapoutput.txt 10.10.10.43
+Host: 10.10.10.43 ()	Status: Up
+Host: 10.10.10.43 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.18 ((Ubuntu))/, 443/open/tcp//ssl|http//Apache httpd 2.4.18 ((Ubuntu))/	Ignored State: filtered (65533)	Seq Index: 262	IP ID Seq: All zeros
+# Nmap done at Fri Aug  9 08:45:17 2019 -- 1 IP address (1 host up) scanned in 253.96 seconds

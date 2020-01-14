@@ -1,0 +1,27 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-07-24 19:40 EDT
+Nmap scan report for 10.10.10.3
+Host is up (0.13s latency).
+
+PORT     STATE SERVICE
+3632/tcp open  distccd
+| distcc-cve2004-2687: 
+|   VULNERABLE:
+|   distcc Daemon Command Execution
+|     State: VULNERABLE (Exploitable)
+|     IDs:  CVE:CVE-2004-2687
+|     Risk factor: High  CVSSv2: 9.3 (HIGH) (AV:N/AC:M/Au:N/C:C/I:C/A:C)
+|       Allows executing of arbitrary commands on systems running distccd 3.1 and
+|       earlier. The vulnerability is the consequence of weak service configuration.
+|       
+|     Disclosure date: 2002-02-01
+|     Extra information:
+|       
+|     uid=1(daemon) gid=1(daemon) groups=1(daemon)
+|   
+|     References:
+|       http://distcc.googlecode.com/svn/trunk/doc/web/security.html
+|       http://http://www.osvdb.org/13378
+|       http://http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2004-2687
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2687
+
+Nmap done: 1 IP address (1 host up) scanned in 1.09 seconds

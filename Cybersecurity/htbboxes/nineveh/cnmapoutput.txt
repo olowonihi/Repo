@@ -1,0 +1,207 @@
+# Nmap 7.70 scan initiated Fri Aug  9 08:41:03 2019 as: nmap -O -p 1-65535 -sV -sC --open -oN cnmapoutput.txt -oG gcnmapoutput.txt 10.10.10.43
+Nmap scan report for 10.10.10.43
+Host is up (0.12s latency).
+Not shown: 65533 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+443/tcp open  ssl/http Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=nineveh.htb/organizationName=HackTheBox Ltd/stateOrProvinceName=Athens/countryName=GR
+| Not valid before: 2017-07-01T15:03:30
+|_Not valid after:  2018-07-01T15:03:30
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|   http/1.1
+|_  http/1.1
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 3.12 (92%), Linux 3.13 (92%), Linux 3.13 or 4.2 (92%), Linux 3.16 (92%), Linux 3.16 - 4.6 (92%), Linux 3.2 - 4.9 (92%), Linux 3.8 - 3.11 (92%), Linux 4.2 (92%), Linux 4.4 (92%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug  9 08:45:17 2019 -- 1 IP address (1 host up) scanned in 253.96 seconds

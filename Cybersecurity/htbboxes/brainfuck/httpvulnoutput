@@ -1,0 +1,8 @@
+# Nmap 7.70 scan initiated Mon Aug  5 09:04:07 2019 as: nmap -p 443 --script=*vuln* -oN httpvulnoutput 10.10.10.17
+Nmap scan report for 10.10.10.17
+Host is up (0.12s latency).
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+# Nmap done at Mon Aug  5 09:04:28 2019 -- 1 IP address (1 host up) scanned in 21.94 seconds

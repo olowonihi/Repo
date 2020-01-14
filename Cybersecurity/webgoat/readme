@@ -1,0 +1,15 @@
+1. Standalone
+
+Download the latest WebGoat release from https://github.com/WebGoat/WebGoat/releases
+
+The latest version of WebGoat needs Java 11. By default WebGoat starts on port 8080 with --server.port you can specify a different port. With server.address you can bind it to a different address (default localhost)
+
+java -jar webgoat-server-8.0.0.M26.jar [--server.port=8081] [--server.address=localhost]
+
+http://localhost:8081/WebGoat
+
+To start the site: java -jar webgoat-server-8.0.0.M26.jar --server.port=80
+To access the site: http://localhost/WebGoat/login
+
+user: admini
+pass: admini

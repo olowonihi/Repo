@@ -1,0 +1,15 @@
+--2019-07-23 22:27:38--  https://10.10.10.7/themes/elastixneo/images/elastix_logo_mini.png
+Connecting to 10.10.10.7:443... connected.
+WARNING: The certificate of ‘10.10.10.7’ is not trusted.
+WARNING: The certificate of ‘10.10.10.7’ doesn't have a known issuer.
+WARNING: The certificate of ‘10.10.10.7’ has expired.
+The certificate has expired
+The certificate's owner does not match hostname ‘10.10.10.7’
+HTTP request sent, awaiting response... 200 OK
+Length: 11332 (11K) [image/png]
+Saving to: ‘elastix_logo_mini.png’
+
+     0K .......... .                                          100% 9.00M=0.001s
+
+2019-07-23 22:27:38 (9.00 MB/s) - ‘elastix_logo_mini.png’ saved [11332/11332]
+

@@ -1,0 +1,3 @@
+/info.php (Status: 200)
+/index.php (Status: 200)
+/browse.php (Status: 200)

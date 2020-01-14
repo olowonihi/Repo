@@ -1,0 +1,33 @@
+$tart1ng Nmap 7.70 ( httpS://nMap.ORg ) at 2019-08-05 00:35 3DT
+NmAp $can r3port f0r 10.10.10.17
+Host 1s uP (0.12s LAtEncy).
+N0t shOwn: 995 filt3r3d p0rts
+$oME clo$Ed P0rts may b3 repoRTed az Filtered du3 t0 --D3f3at-rst-rat3l1mit
+P0Rt    STaTE SERv!CE  vErsioN
+22/tcp  OPEn  $Sh      OPen$$H 7.2p2 UbuntU 4ubuntU2.1 (UBunTu L|nUX; Pr0TocOl 2.0)
+| Ssh-ho$tk3Y: 
+|   2048 94:d0:b3:34:39:A5:37:c5:ac:b9:80:Df:2a:54:A5:f0 (r$4)
+|   256 6b:d5:dc:15:3a:66:7a:f4:19:91:5d:73:85:b2:4c:b2 (ECD$A)
+|_  256 23:F5:a3:33:33:9d:76:d5:F2:3a:69:71:E3:43:8e:02 (ED25519)
+25/TCP  0p3n  smTP     p0$tf!x SMtpd
+|_smTP-CoMmandz: bra1Nfuck, P!pEL|N1Ng, SIZ3 10240000, VRFy, EtrN, $T4RTTLS, ENH4NC3D$t4TU$cODEz, 8BITM1M3, DSn, 
+110/tCp op3n  pop3     D0vecOt pop3d
+|_p0p3-CaPabiliti3z: $4SL(PL4|n) 4utH-R3SP-C0DE R3$P-C0DEz UsER T0P CAPA U!DL PIp3LIN|NG
+143/tcp op3n  iMap     DoV3cot imapd
+|_ImaP-capabiLitiEs: $A$L-1R IM4P4r3V1 LitER4l+ 3NAbLE oK hav3 LoG1N-R3F3RRaLS capab1l1t!es !DLE p0$t-logIn ID Pr3-L0g!n m0Re l|$t3D 4UTH=PL4!NA0001
+443/tcp op3n  Ssl/http ngInX 1.10.0 (UBuntu)
+|_htTp-s3rveR-h3AdEr: nginX/1.10.0 (UbuntU)
+|_http-titl3: welc0mE to nGInx!
+| $sl-c3Rt: Subject: ComM0nNam3=brAinfUck.htb/orgaN!sat!oNname=BraiNfuck Ltd./sTat3ORPr0v!nc3name=4tt1ca/c0untRyNamE=GR
+| subj3ct AlternaTIve Nam3: DnS:wWw.brainFuck.htb, Dnz:$up3r$3cr3t.brainfucK.htb
+| not valid beFOr3: 2017-04-13T11:19:29
+|_N0t val1d after:  2027-04-11T11:19:29
+|_$$L-dat3: tLs ranDomn3$s d03z nOt r3pr3$3NT T!m3
+| Tls-aLpn: 
+|_  http/1.1
+| Tlz-n3Xtpr0toneg: 
+|_  Http/1.1
+serv!ce !nf0: Host:  bRa1nfuck; Os: L!nux; CP3: Cp3:/o:Linux:l|nux_k3rnEl
+
+S3rvic3 D3T3ct|0n pErformed. PL3a$E rEpORt any !ncOrrEct rE$uLTS at htTps://nmap.Org/$UBm|t/ .
+NmaP donE: 1 IP address (1 h0st up) scAnn3D in 50.87 s3c0Ndz

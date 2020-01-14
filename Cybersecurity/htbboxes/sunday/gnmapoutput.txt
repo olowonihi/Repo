@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Sun Aug  4 00:25:40 2019 as: nmap -sV -sC -oN nmapoutput.txt -oG gnmapoutput.txt 10.10.10.76
+Host: 10.10.10.76 ()	Status: Up
+Host: 10.10.10.76 ()	Ports: 79/open/tcp//finger//Sun Solaris fingerd/, 81/filtered/tcp//hosts2-ns///, 111/open/tcp//rpcbind///, 161/filtered/tcp//snmp///, 691/filtered/tcp//resvc///, 1138/filtered/tcp//encrypted_admin///, 1461/filtered/tcp//ibm_wrless_lan///, 3905/filtered/tcp//mupdate///, 3945/filtered/tcp//emcads///, 4998/filtered/tcp//maybe-veritas///, 5087/filtered/tcp//biotic///, 5678/filtered/tcp//rrac///, 5810/filtered/tcp//unknown///, 5925/filtered/tcp//unknown///, 6003/filtered/tcp//X11:3///, 10010/filtered/tcp//rxapi///, 14442/filtered/tcp//unknown///, 48080/filtered/tcp//unknown///, 62078/filtered/tcp//iphone-sync///	Ignored State: closed (981)
+# Nmap done at Sun Aug  4 00:37:26 2019 -- 1 IP address (1 host up) scanned in 706.16 seconds

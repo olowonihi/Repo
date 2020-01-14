@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Fri Aug  9 08:40:36 2019 as: nmap -sV -sC --open -oN nmapoutput.txt -oG gnmapoutput.txt 10.10.10.43
+Host: 10.10.10.43 ()	Status: Up
+Host: 10.10.10.43 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.18 ((Ubuntu))/, 443/open/tcp//ssl|http//Apache httpd 2.4.18 ((Ubuntu))/	Ignored State: filtered (998)
+# Nmap done at Fri Aug  9 08:53:30 2019 -- 1 IP address (1 host up) scanned in 774.62 seconds
